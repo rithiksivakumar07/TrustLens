@@ -1,0 +1,2 @@
+model,accuracy,malignant_recall,benign_recall,malignant_precision,benign_precision,macro_f1,training_loss
+PyTorch Neural Network,0.9649122807017544,0.9761904761904762,0.9583333333333334,0.9318181818181818,0.9857142857142858,0.9626596790042581,0.006651998929252538
