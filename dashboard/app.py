@@ -248,6 +248,10 @@ elif page == "Robustness":
 elif page == "Fairness":
     from pages.fairness import render
     render()
+
+elif page == "Deep Learning":
+    from pages.deep_learning import render
+    render()
 else:
     st.title(page)
 
