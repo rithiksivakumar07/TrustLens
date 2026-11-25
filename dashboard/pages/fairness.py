@@ -83,7 +83,6 @@ def render():
     )
 
     st.plotly_chart(summary_fig, use_container_width=True)
-
     st.divider()
 
     # Select attribute
@@ -131,6 +130,24 @@ def render():
     )
 
     st.plotly_chart(tpr_fig, use_container_width=True)
+
+    # Sample count by group
+    st.subheader("Sample Distribution by Group")
+
+    sample_fig = px.bar(
+        group_df,
+        x="group",
+        y="sample_count",
+        text="sample_count",
+        title=f"Number of Evaluated Samples by {attribute}"
+    )
+
+    sample_fig.update_layout(
+        xaxis_title=attribute,
+        yaxis_title="Number of Samples"
+    )
+
+    st.plotly_chart(sample_fig, use_container_width=True)
 
     # Other group metrics
     st.subheader("Classification Metrics by Group")
