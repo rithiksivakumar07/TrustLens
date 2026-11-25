@@ -1,0 +1,4 @@
+experiment,training_accuracy,test_accuracy,macro_precision,macro_recall,macro_f1
+Baseline CNN,90.438,71.52,0.7209,0.7152,0.7153
+CNN + Augmentation,71.37,73.12,0.7348,0.7312,0.7305
+CNN + Augmentation + Regularization,67.25,73.19,0.7316,0.7319,0.7298
