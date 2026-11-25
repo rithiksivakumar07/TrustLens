@@ -74,6 +74,37 @@ The Streamlit dashboard provides six sections:
 5. Fairness
 6. Deep Learning
 
+## Dashboard Screenshots
+
+TrustLens includes an interactive Streamlit dashboard with six sections.
+
+### 1. Dashboard Overview
+![TrustLens Overview](assets/screenshots/overview.png)
+
+### 2. Model Performance
+![Model Performance](assets/screenshots/performance.png)
+
+### 3. Explainability
+![Explainability](assets/screenshots/explainability.png)
+
+### 4. Robustness Evaluation
+![Robustness](assets/screenshots/robustness.png)
+
+### 5. Fairness Evaluation
+
+**Sex-based evaluation**
+
+![Fairness by Sex](assets/screenshots/fairness_sex.png)
+
+**Race-based evaluation**
+
+![Fairness by Race](assets/screenshots/fairness_race.png)
+
+### 6. Deep Learning
+![Deep Learning](assets/screenshots/deep_learning.png)
+
+---
+
 ## Experimental Results
 
 ### Classical Machine Learning
@@ -281,7 +312,7 @@ The dashboard uses saved CSV experiment reports from the `reports/` directory. R
 
 ## Author
 
-**S Rithik**
+**S. Rithik**
 
 GitHub: [rithiksivakumar07](https://github.com/rithiksivakumar07)
 
