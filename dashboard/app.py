@@ -240,11 +240,14 @@ elif page == "Model Performance":
 elif page == "Explainability":
     from pages.explainability import render
     render()
-    
+
 elif page == "Robustness":
     from pages.robustness import render
     render()
 
+elif page == "Fairness":
+    from pages.fairness import render
+    render()
 else:
     st.title(page)
 
